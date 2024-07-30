@@ -19,7 +19,7 @@ export const Footer = (props) => {
                 <span className='dark:text-gray-200 no-underline ml-4'>
                     <a href="/" className=' hover:underline'> 我们立足于美利坚合众国，对全球华人服务，受北美法律保护。 </a><br />
                     <a href="/" className=' hover:underline'> <span id="cdn"></span> </a><br />
-                    Copyright © 2023 - 现在 href="https://653773.xyz/" className=' hover:underline'> 653773.XYZ </a>
+                    Copyright © 2023 - 现在 <a href="https://653773.xyz/" className=' hover:underline'> 653773.XYZ </a>
                     
                 </span>
             </div>
