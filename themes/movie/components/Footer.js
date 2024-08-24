@@ -14,7 +14,7 @@ export const Footer = (props) => {
             <div className='text-center'> 本站含有成人内容，未满18岁者请勿进入，否则后果自负！ </div>
             <div className="md:p-0 text-center md:text-right text-xs">
                 {/* 右侧链接 */}
-                {/* <a href="#" className="text-black no-underline hover:underline">Privacy Policy</a> */}
+                <a href="#" className="text-black no-underline hover:underline">Privacy Policy</a>
                 {siteConfig('BEI_AN') && (<a href="https://beian.miit.gov.cn/" className="text-black dark:text-gray-200 no-underline hover:underline ml-4">{siteConfig('BEI_AN')} </a>)}
                 <span className='dark:text-gray-200 no-underline ml-4'>
                     <a href="/" className=' hover:underline'> 我们立足于俄罗斯联邦，无视DMCA，对全球华人服务，受俄罗斯联邦法律保护。 </a><br />
