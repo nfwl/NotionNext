@@ -18,6 +18,7 @@ export const Footer = (props) => {
                 {siteConfig('BEI_AN') && (<a href="https://beian.miit.gov.cn/" className="text-black dark:text-gray-200 no-underline hover:underline ml-4">{siteConfig('BEI_AN')} </a>)}
                 <span className='dark:text-gray-200 no-underline ml-4'>
                     <a href="/" className=' hover:underline'> 我们立足于俄罗斯联邦，无视DMCA，对全球华人服务，受俄罗斯联邦法律保护。 </a><br />
+                    当前CDN节点：<a href="/" className=' hover:underline'> <span id="cdn"></span> </a><br />
                     Copyright © 2023 - 现在 <a href="https://653773.xyz/" className=' hover:underline'> 653773.XYZ </a>
                     
                 </span>
