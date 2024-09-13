@@ -16,10 +16,9 @@ export const Footer = (props) => {
                 {/* 右侧链接 */}
                 {/* <a href="#" className="text-black no-underline hover:underline">Privacy Policy</a> */}
                 {siteConfig('BEI_AN') && (<a href="https://beian.miit.gov.cn/" className="text-black dark:text-gray-200 no-underline hover:underline ml-4">{siteConfig('BEI_AN')} </a>)}
-                <div className='dark:text-gray-200 no-underline ml-4'>
-                    <div className=' hover:underline' 我们立足于俄罗斯联邦，无视DMCA，对全球华人服务，受俄罗斯联邦法律保护。 />
-                    <div className=' hover:underline' id="cdn" />
-                    <div className=' hover:underline' Copyright © 2023 - 现在 653773.XYZ />
+            <div className=' hover:underline' 我们立足于俄罗斯联邦，无视DMCA，对全球华人服务，受俄罗斯联邦法律保护。 />
+            <div className=' hover:underline' id="cdn" />
+            <div className=' hover:underline' Copyright © 2023 - 现在 653773.XYZ />
             </div>
         </div>
     </footer>
