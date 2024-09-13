@@ -19,11 +19,20 @@ export const Footer = (props) => {
                 <span className='dark:text-gray-200 no-underline ml-4'>
                     Powered by
                     <a href="https://653773.xyz" className=' hover:underline'> SmartPages {siteConfig('VERSION')}  </a>
-                    <div className=' hover:underline' id="cdn" />
-                    <div className='hover:underline' 本站含有成人内容，未满18岁者请勿进入，否则后果自负！/>
-                    <div className=' hover:underline' 我们立足于俄罗斯联邦，无视DMCA，对全球华人服务，受俄罗斯联邦法律保护。 />                                                                                                                                              
-                </span>
-            </div>
+                  </span>
+                  <div>
+  <div
+    className="hover:underline"
+    id="cdn"
+  />
+  <div className="hover:underline">
+    本站含有成人内容，未满18岁者请勿进入，否则后果自负！
+  </div>
+  <div className="hover:underline">
+    我们立足于俄罗斯联邦，无视DMCA，对全球华人服务，受俄罗斯联邦法律保护
+  </div>
+</div>    
+          </div>
         </div>
     </footer>
 }
