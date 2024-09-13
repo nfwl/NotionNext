@@ -22,13 +22,13 @@ export const Footer = (props) => {
                   </span>
                   <div>
   <div
-    className="text-center"
-    id="cdn"
-  />
-  <div className="text-center">
+  className="text-center "
+  id="cdn"
+  />                                                                                                                                                                 
+  <div className="text-center ">
     本站含有成人内容，未满18岁者请勿进入，否则后果自负！
   </div>
-  <div className="text-center">
+  <div className="text-center ">
     我们立足于俄罗斯联邦，无视DMCA，对全球华人服务，受俄罗斯联邦法律保护
   </div>
 </div>    
