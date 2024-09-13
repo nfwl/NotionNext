@@ -24,7 +24,11 @@ export const Footer = (props) => {
   <div
   className="text-center "
   id="cdn"
-  />                                                                                                                                                                 
+  />
+  <div
+  className="text-center "
+  id="hitokoto"
+  />                                                                                                                                                               
   <div className="text-center ">
     本站含有成人内容，未满18岁者请勿进入，否则后果自负！
   </div>
