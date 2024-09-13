@@ -11,10 +11,18 @@ export const Footer = (props) => {
         <DarkModeButton className='text-center pt-4'/>
 
         <div className="container mx-auto max-w-4xl py-6 md:flex flex-wrap md:flex-no-wrap md:justify-between items-center text-sm">
-            <div className='hover:underline' 本站含有成人内容，未满18岁者请勿进入，否则后果自负！>
-            <div className=' hover:underline' 我们立足于俄罗斯联邦，无视DMCA，对全球华人服务，受俄罗斯联邦法律保护。 />
-            <div className=' hover:underline' id="cdn" />
-            <div className=' hover:underline' Copyright © 2023 - 现在 653773.XYZ />
+            <div className='text-center'> &copy;{`${copyrightDate}`} {siteConfig('AUTHOR')}. All rights reserved.</div>
+            <div className="md:p-0 text-center md:text-right text-xs">
+                {/* 右侧链接 */}
+                {/* <a href="#" className="text-black no-underline hover:underline">Privacy Policy</a> */}
+                {siteConfig('BEI_AN') && (<a href="https://beian.miit.gov.cn/" className="text-black dark:text-gray-200 no-underline hover:underline ml-4">{siteConfig('BEI_AN')} </a>)}
+                <span className='dark:text-gray-200 no-underline ml-4'>
+                    Powered by
+                    <a href="https://653773.xyz" className=' hover:underline'> SmartPages {siteConfig('VERSION')}  </a>
+                    <div className=' hover:underline' id="cdn" />
+                    <div className='hover:underline' 本站含有成人内容，未满18岁者请勿进入，否则后果自负！/>
+                    <div className=' hover:underline' 我们立足于俄罗斯联邦，无视DMCA，对全球华人服务，受俄罗斯联邦法律保护。 />                                                                                                                                              
+                </span>
             </div>
         </div>
     </footer>
