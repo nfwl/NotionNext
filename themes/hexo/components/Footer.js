@@ -21,7 +21,9 @@ const Footer = ({ title }) => {
       <span className='pl-2 hidden busuanzi_container_site_uv'>
         <i className='fas fa-users'/> <span className='px-1 busuanzi_value_site_uv'> </span> </span>
         <h1 className='text-xs pt-4 text-light-400 dark:text-gray-400'>{title} {siteConfig('BIO') && <>|</>} {siteConfig('BIO')}</h1>
-        <p className='text-xs pt-2 text-light-500 dark:text-gray-500'>投稿邮箱: <a href='/' className='dark:text-gray-300'>wenrouzhiyue@gmail.com</a>.</p>
+        <p className='text-xs pt-2 text-light-500 dark:text-gray-500'>投稿邮箱: <a className='dark:text-gray-300'>wenrouzhiyue@gmail.com</a>.</p>
+        <p className='text-xs pt-2 text-light-500 dark:text-gray-500'> 当前节点信息: <a id="cdn" className='dark:text-gray-300'></a>.</p>
+        <p className='text-xs pt-2 text-light-500 dark:text-gray-500'> 每日一言: <a id="hitokoto" className='dark:text-gray-300'></a>.</p>
         <p className='text-xs pt-2 text-light-500 dark:text-gray-500'>Powered by <a href='https://SmartPages.653773.xyz/' className='dark:text-gray-300'>Smartpages {siteConfig('VERSION')}</a>.</p>
         </span><br/>
         
