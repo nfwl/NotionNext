@@ -24,6 +24,8 @@ const Footer = ({ title }) => {
         <p className='text-xs pt-2 text-light-500 dark:text-gray-500'>投稿邮箱: <a className='dark:text-gray-300'>wenrouzhiyue@gmail.com</a>.</p>
         <p className='text-xs pt-2 text-light-500 dark:text-gray-500'> 当前节点信息: <a id="cdn" className='dark:text-gray-300'></a>.</p>
         <p className='text-xs pt-2 text-light-500 dark:text-gray-500'> 每日一言: <a id="hitokoto" className='dark:text-gray-300'></a>.</p>
+        <p className='text-xs pt-2 text-light-500 dark:text-gray-500'>温馨提示: <a className='dark:text-gray-300'>本站含有成人内容，未满18岁者请勿进入，否则后果自负！</a>.</p>
+        <p className='text-xs pt-2 text-light-500 dark:text-gray-500'>免责声明: <a className='dark:text-gray-300'>我们立足于俄罗斯联邦，对全球华人服务，受俄罗斯联邦法律保护。</a>.</p>
         <p className='text-xs pt-2 text-light-500 dark:text-gray-500'>Powered by <a href='https://SmartPages.653773.xyz/' className='dark:text-gray-300'>Smartpages {siteConfig('VERSION')}</a>.</p>
         </span><br/>
         
