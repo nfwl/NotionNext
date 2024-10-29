@@ -33,11 +33,27 @@ export const Footer = props => {
           <span className='dark:text-gray-200 no-underline ml-4'>
             Powered by
             <a
-              href='https://github.com/tangly1024/NotionNext'
+              href='https://github.com/'
               className=' hover:underline'>
-              NotionNext {siteConfig('VERSION')}
+              SmartPages {siteConfig('VERSION')}
             </a>
           </span>
+          <div>
+  <div
+  className="text-center "
+  id="cdn"
+  />
+  <div
+  className="text-center "
+  id="hitokoto"
+  />                                                                                                                                                               
+  <div className="text-center ">
+    本站含有成人内容，未满18岁者请勿进入，否则后果自负！
+  </div>
+  <div className="text-center ">
+    我们立足于俄罗斯联邦，无视DMCA，对全球华人服务，受俄罗斯联邦法律保护
+  </div>
+</div>
         </div>
       </div>
     </footer>
