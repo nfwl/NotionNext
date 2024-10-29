@@ -51,7 +51,6 @@ const Footer = ({ title }) => {
           .
         </p>
       </span>
-      <br />
     </footer>
   )
 }
